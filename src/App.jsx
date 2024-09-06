@@ -7,7 +7,7 @@ import Profile from "./pages/Profile"
 import Header from "./components/Header"
 
 const App = () => {
-  return (
+  return ( 
     <BrowserRouter>
     <Header/>
      <Routes>
