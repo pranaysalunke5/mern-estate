@@ -6,6 +6,7 @@ dotenv.config();
 
 mongoose.connect(process.env.MONGO).then 
 
+
 const app = express();
 
 app.listen(3000,() => {
