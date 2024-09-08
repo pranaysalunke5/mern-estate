@@ -16,8 +16,7 @@ export const hashPassword = (password) => {
     })
 }
 
-//     WHEN USER WANT LOGIN COMPARE PASSWORD
 
 export const comparePassword = (password,hashed) => {
-    return bcrypt.compare(password,hashed)  // true /false
+    return bcrypt.compare(password,hashed)  
 }
