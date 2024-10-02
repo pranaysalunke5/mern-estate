@@ -35,6 +35,7 @@ const Profile = () => {
 
         <button className="mt-8 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-md">
           Edit Profile
+          
         </button>
       </div>
     </div>
