@@ -28,6 +28,7 @@ const Home = () => {
               <p className="text-lg font-semibold text-blue-600">$850,000</p>
             </div>
           </div>
+          
 
         </div>
       </div>
