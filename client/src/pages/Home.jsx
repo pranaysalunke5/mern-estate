@@ -41,6 +41,7 @@ const Home = () => {
           </p>
         </div>
       </div>
+      
 
       <footer className="bg-gray-800 py-6 text-white text-center">
         <p>&copy; 2024 Your Real Estate Company. All Rights Reserved.</p>
