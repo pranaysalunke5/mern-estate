@@ -13,6 +13,7 @@ const Home = () => {
             Get Started
           </button>
         </div>
+        
       </div>
 
       {/* Featured Properties */}
