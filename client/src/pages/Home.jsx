@@ -19,6 +19,7 @@ const Home = () => {
       {/* Featured Properties */}
       
       <div className="py-12">
+        
         <h2 className="text-3xl font-semibold text-center mb-8">Featured Properties</h2>
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Property Card */}
