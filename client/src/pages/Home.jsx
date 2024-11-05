@@ -31,6 +31,22 @@ const Home = () => {
               <p className="text-lg font-semibold text-blue-600">$850,000</p>
             </div>
           </div>
+          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="/path-to-property1.jpg" alt="Property" className="w-full h-56 object-cover" />
+            <div className="p-6">
+              <h3 className="text-2xl font-bold mb-2">Luxury Villa</h3>
+              <p className="text-gray-600 mb-4">3 Beds • 2 Baths • 2500 sqft</p>
+              <p className="text-lg font-semibold text-blue-600">$850,000</p>
+            </div>
+          </div>
+          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="/path-to-property1.jpg" alt="Property" className="w-full h-56 object-cover" />
+            <div className="p-6">
+              <h3 className="text-2xl font-bold mb-2">Luxury Villa</h3>
+              <p className="text-gray-600 mb-4">3 Beds • 2 Baths • 2500 sqft</p>
+              <p className="text-lg font-semibold text-blue-600">$850,000</p>
+            </div>
+          </div>
           
 
         </div>
