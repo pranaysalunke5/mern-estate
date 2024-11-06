@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
+
   return (
     <div className="bg-gray-100 min-h-screen">
       {/* Hero Section */}
@@ -23,7 +25,10 @@ const Home = () => {
         <h2 className="text-3xl font-semibold text-center mb-8">Featured Properties</h2>
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Property Card */}
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+          <Link to='/details'>
+          <div className="bg-white shadow-md rounded-lg overflow-hidden"
+          onClick={handleClick}
+          >
             <img src="/path-to-property1.jpg" alt="Property" className="w-full h-56 object-cover" />
             <div className="p-6">
               <h3 className="text-2xl font-bold mb-2">Luxury Villa</h3>
@@ -31,6 +36,8 @@ const Home = () => {
               <p className="text-lg font-semibold text-blue-600">$850,000</p>
             </div>
           </div>
+        </Link>
+
           <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <img src="/path-to-property1.jpg" alt="Property" className="w-full h-56 object-cover" />
             <div className="p-6">
