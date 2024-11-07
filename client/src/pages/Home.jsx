@@ -27,7 +27,6 @@ const Home = () => {
           {/* Property Card */}
           <Link to='/details'>
           <div className="bg-white shadow-md rounded-lg overflow-hidden"
-          onClick={handleClick}
           >
             <img src="/path-to-property1.jpg" alt="Property" className="w-full h-56 object-cover" />
             <div className="p-6">
