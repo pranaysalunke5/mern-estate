@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 const Home = () => {
 
@@ -11,9 +12,12 @@ const Home = () => {
         <div className="relative text-center text-white flex flex-col justify-center items-center h-full">
           <h1 className="text-5xl font-bold">Find Your Dream Home</h1>
           <p className="text-xl mt-4">Explore the best real estate properties around you</p>
+          <Link to='/sign-in'>
           <button className="mt-8 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md">
             Get Started
           </button>
+        </Link>
+
         </div>
         
       </div>
@@ -67,10 +71,7 @@ const Home = () => {
         </div>
       </div>
       
-
-      <footer className="bg-gray-800 py-6 text-white text-center">
-        <p>&copy; 2024 Your Real Estate Company. All Rights Reserved.</p>
-      </footer>
+      <Footer/>
     </div>
   );
 };
