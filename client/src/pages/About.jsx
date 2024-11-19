@@ -19,7 +19,14 @@ const About = () => {
         <p className="text-gray-700">
           We strive to be the most trusted and innovative real estate company, helping people discover their dream properties with ease and confidence.
         </p>
+        <button
+            type="submit"
+            className="w-full py-2 mt-6 text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          >
+            Contact Us
+          </button>
       </div>
+      
     </div>
   );
 };
